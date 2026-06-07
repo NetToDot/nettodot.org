@@ -17,4 +17,9 @@ nav a.active {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-``
+
+footer {
+  margin-top: 3em;
+  font-size: 0.85em;
+  opacity: 0.7;
+}
