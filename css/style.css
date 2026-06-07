@@ -18,8 +18,19 @@ nav a.active {
   text-underline-offset: 4px;
 }
 
+/* Footer */
+
 footer {
   margin-top: 3em;
   font-size: 0.85em;
   opacity: 0.7;
+}
+
+/* Print-friendly */
+
+@media print {
+  nav,
+  footer {
+    display: none;
+  }
 }
